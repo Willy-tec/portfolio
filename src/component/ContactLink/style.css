@@ -1,0 +1,24 @@
+.ContactLink {
+  position: relative;
+  width: 6.4rem;
+  height: 6.4rem;
+}
+.ContactLink:hover::after {
+  content: attr(aria-label);
+  position: absolute;
+  top: -4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: bisque;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.ContactLink_link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.ContactLink_link_img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */

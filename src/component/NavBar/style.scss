@@ -1,0 +1,25 @@
+.NavBar {
+    padding: 2rem;
+    background-color: #1b242f;
+    position: sticky;
+    & ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        & li {
+            & a {
+                text-transform: uppercase;
+                text-decoration: none;
+                color: white;
+                transition: 500ms color;
+                &:hover,
+                &:focus,
+                &:active {
+                    color: #e31b6d;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

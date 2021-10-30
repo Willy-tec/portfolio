@@ -1,0 +1,22 @@
+.NavBar {
+  padding: 2rem;
+  background-color: #1b242f;
+  position: -webkit-sticky;
+  position: sticky;
+}
+.NavBar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.NavBar ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  transition: 500ms color;
+}
+.NavBar ul li a:hover, .NavBar ul li a:focus, .NavBar ul li a:active {
+  color: #e31b6d;
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
