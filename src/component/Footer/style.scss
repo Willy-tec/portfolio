@@ -1,0 +1,22 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b242f;
+    padding: 5rem 0 5rem 0;
+
+    &_icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    & p {
+        color: #8f9aa7;
+        margin-top: 1rem;
+        & span {
+            color: #e31b6d;
+        }
+    }
+}

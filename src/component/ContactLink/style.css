@@ -1,0 +1,28 @@
+.ContactLink {
+  position: relative;
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+  padding: 1rem;
+  background-color: #8f9aa7;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5), 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.ContactLink:hover::after {
+  content: attr(aria-label);
+  position: absolute;
+  top: -4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #8f9aa7;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.ContactLink_link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.ContactLink_link_img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */
