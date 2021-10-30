@@ -1,0 +1,63 @@
+.Portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0 4rem 0;
+}
+.Portfolio_title {
+  font-size: 3rem;
+  margin: 2rem 0;
+  position: relative;
+  width: auto;
+  overflow: hidden;
+}
+.Portfolio_title:after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 3rem;
+  border-bottom: 3px solid black;
+  bottom: 0;
+  left: -10%;
+  -webkit-animation: underlineMove 3s cubic-bezier(0.29, 0.73, 0.92, 0.4) infinite;
+          animation: underlineMove 3s cubic-bezier(0.29, 0.73, 0.92, 0.4) infinite;
+}
+.Portfolio_box1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 102.4rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.Portfolio_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  margin: auto;
+  max-width: 102.4rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+@-webkit-keyframes underlineMove {
+  from {
+    transform: translateX(-3rem);
+  }
+  to {
+    transform: translateX(24rem);
+  }
+}
+
+@keyframes underlineMove {
+  from {
+    transform: translateX(-3rem);
+  }
+  to {
+    transform: translateX(24rem);
+  }
+}/*# sourceMappingURL=style.css.map */
