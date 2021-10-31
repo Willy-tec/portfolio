@@ -13,6 +13,10 @@ function Contact() {
                 <path d="M0 0 L50 100 L 100 0 Z" stroke="white" fill="white" />
             </svg>
             <h1>CONTACT</h1>
+            <p>
+                Vous avez une question, ou vous souhaitez que l'on travaille
+                ensemble ?
+            </p>
             <FormSpree />
         </section>
     );

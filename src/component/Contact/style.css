@@ -25,4 +25,8 @@
   bottom: 0rem;
   left: 50%;
   transform: translateX(-50%);
+}
+.Contact p {
+  color: #04c2c9;
+  margin: 3rem 0 0 0;
 }/*# sourceMappingURL=style.css.map */
