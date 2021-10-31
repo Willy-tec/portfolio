@@ -2,6 +2,9 @@
     padding: 2rem;
     background-color: #1b242f;
     position: sticky;
+    top: 0;
+    z-index: 10;
+    opacity: 0.9;
     & ul {
         list-style: none;
         display: flex;

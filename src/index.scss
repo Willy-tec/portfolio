@@ -4,6 +4,8 @@
     box-sizing: content-box;
 }
 html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     font-size: 62.5%;
 }
 body {

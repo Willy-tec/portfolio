@@ -3,6 +3,9 @@
   background-color: #1b242f;
   position: -webkit-sticky;
   position: sticky;
+  top: 0;
+  z-index: 10;
+  opacity: 0.9;
 }
 .NavBar ul {
   list-style: none;

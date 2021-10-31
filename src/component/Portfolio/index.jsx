@@ -4,7 +4,7 @@ import Card from '../Card';
 
 function Portfolio() {
     return (
-        <section className="Portfolio">
+        <section className="Portfolio" id="portfolio">
             <h2 className="Portfolio_title">Mes créations</h2>
             <div className="Portfolio_box">
                 {website &&
